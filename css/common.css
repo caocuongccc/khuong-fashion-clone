@@ -1,0 +1,17 @@
+body {
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 100%;
+    background: #FFF;
+    line-height: 1.25em;
+    color: #666;
+}
+
+h1 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}

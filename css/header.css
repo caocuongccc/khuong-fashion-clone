@@ -1,0 +1,46 @@
+.top-bar {
+    background: #DDD;
+    vertical-align: middle;
+    height: 2.2em;
+}
+
+.top-nav {
+    float: right;
+    list-style: none;
+    margin-top: -1.4em;
+}
+
+.top-nav li {
+    display: inline-block;
+}
+
+.top-nav li a{
+    color: #D60202;
+    display: inline-block;
+    margin-right: 1em;
+
+}
+
+header {
+    display: inline-block;
+}
+
+.logo {
+    float: left;
+    margin-left: 3.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-right: 9.5em;
+}
+header form {
+    float: left;
+    margin-left: 5em;
+    margin-top: 3em;
+}
+
+.shoping-card {
+    float: right;
+    position: absolute;
+    top: 5em;
+    right: 5em;
+}
