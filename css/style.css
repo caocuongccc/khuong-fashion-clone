@@ -1,0 +1,11 @@
+/* Common section*/
+@import url('common.css');
+
+/* Header and Footer section*/
+@import url('header.css');
+
+/* Aside section*/
+@import url('aside.css');
+
+/* Products section*/
+@import url('products.css');
