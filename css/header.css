@@ -1,7 +1,16 @@
 .top-bar {
     background: #DDD;
-    vertical-align: middle;
     height: 2.2em;
+}
+
+.phone-img {
+    position: relative;
+    left: 3.25em;
+    top: 0.4em;
+}
+
+.phone-text {
+    margin-left: 3.4em;
 }
 
 .top-nav {
@@ -18,7 +27,6 @@
     color: #D60202;
     display: inline-block;
     margin-right: 1em;
-
 }
 
 header {
@@ -36,6 +44,14 @@ header form {
     float: left;
     margin-left: 5em;
     margin-top: 3em;
+}
+
+.search {
+    background: #ddd;
+}
+
+input [type="text"] {
+    background-color: #3CBC8D;
 }
 
 .shoping-card {
