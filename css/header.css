@@ -40,8 +40,8 @@ header {
 .logo {
     float: left;
     margin-left: 3.5em;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     margin-right: 9.5em;
 }
 header form {
@@ -77,20 +77,32 @@ input[type=submit] :hover {
     float: right;
     position: absolute;
     top: 6em;
-    right: 5em;
+    right: 3.5em;
+}
+
+.icon:after {
+    font-family: FontAwesome;
+   content: "\f0d7";
+   display: inline-block;
+   padding-left: 0.3em;
+   vertical-align: middle;
 }
 
 .shoping-card:hover +.shoping-details {
     display: block;
-    width: 13em;
+    width: 20em;
     height: 6em;
     background: #fff;
     position: absolute;
-    right: 5em;
-    top: 7em;
+    right: 3.5em;
+    top: 7.3em;
     border: 1px solid #eee;
     line-height: 2em;
     padding-right: 0.5em;
+}
+
+.shoping-card:hover {
+    color: #EA028A;
 }
 
 .shoping-details {
@@ -103,9 +115,9 @@ input[type=submit] :hover {
 
 .hotline {
     position: absolute;
-    right: 3em;
+    right: 4.4em;
     font-size: 0.8em;
-    top: 15.8em;
+    top: 13.3em;
     color: #fff;
 }
 
@@ -154,5 +166,106 @@ input[type=submit] :hover {
 }
 
 .third-nav {
+    display: none;
+}
+
+.transport {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.transport-content {
+    width: 20em;
+    display: table-cell;
+    color: #666;
+}
+
+.transport-content:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.transport-title {
+    text-transform: uppercase;
+}
+
+.tran-left {
+    float: left;
+}
+
+.tran-center {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+tran-right {
+    float: right;
+}
+
+.trucks:before {
+    font-family: FontAwesome;
+    content: "\f0d1";
+    display: inline;
+}
+
+.laptop:before {
+    content: "\f109";
+    font-family: FontAwesome;
+    display: inline;
+}
+
+.dollar:before {
+    content: "\f155";
+    font-family: FontAwesome;
+    display: inline !important;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 77.25em;
+}
+
+footer {
+    background-color: #000;
+    height: 5em;
+}
+
+.contact-us {
+    position: fixed;
+    bottom: 0.4em;
+    right: 1em;
+    width: 15em;
+    height: 2.2em;
+    background: #0281DE;
+    border-radius: 1.5em;
+    text-align: center;
+}
+
+.contact-title {
+    top: -10em;
+}
+
+.footer-title {
+    float: left;
+    margin-top: 1em;
+    margin-left: 5em;
+    color:#fff;
+}
+
+.payment {
+    margin-top: 0.8em;
+    float: right;
+    margin-right: 8em;
+}
+
+.max-img {
+    width: 1.2em;
+    height: 1.2em;
+    margin-top: 0.25em;
+}
+
+.contact-details {
     display: none;
 }
