@@ -12,6 +12,9 @@ h1 {
     text-transform: uppercase;
 }
 
+li {
+    list-style-type: none;
+}
 a {
     text-decoration: none;
 }

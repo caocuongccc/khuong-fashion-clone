@@ -1,4 +1,128 @@
 aside {
-    width: 22.5em;
+    width: 18em;
     float: left;
+    margin: 0 auto;
+}
+
+.asign-header {
+    height: 2.5em;
+    background: #C30374;
+    text-align: center;
+}
+
+.fa-align {
+    margin-right: 1em;
+}
+
+.asign-title {
+    padding-top: 0.7em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.a-nav {
+    background: #f4f4f4;
+}
+
+.a-nav li {
+    height: 2em;
+    padding-top: 1em;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.a-nav li a{
+    color: red;
+    text-transform: uppercase;
+    margin-left: 3em;
+}
+
+.a-nav li a:hover {
+    color: #20a781;
+}
+
+.thumb-seller {
+    width: 6em;
+    height: 6em;
+}
+
+.best-item {
+    margin: 0.75em;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.wrapper-item {
+    display: inline-flex;
+}
+
+.seller-name {
+    color: #000;
+    padding-bottom: 0.5em;
+}
+
+.seller-name:hover {
+    color: #20a781;
+}
+
+.wrapper-text {
+    margin-left: 1em;
+}
+
+.seller-discount {
+    color: #888;
+    text-decoration: line-through;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.seller-price{
+    color: #CA0000;
+    font-size: 1.4em;
+}
+
+.seller-null {
+    margin-top: 0.7em;
+}
+
+.how-work {
+    width: 18em;
+}
+
+.jim-pic {
+    width: 18em;
+}
+
+.wrapper-item {
+    display: inline-flex;
+    margin-top: 0.5em;
+}
+
+.news-item {
+    margin: 0.5em;
+}
+
+.new-title {
+    color: #D60202;
+}
+
+.new-title:hover {
+    color: #20a781;
+}
+
+.new-content {
+    margin-left: 1em;
+    font-size: 0.85em;
+}
+
+.statisc-content {
+    text-align: center;
+    margin: 1em;
+}
+
+.count-number {
+    margin-left: 6em;
+}
+
+.statics-img{
+    margin-right: 1em;
+    border-bottom: 0.1em dashed #e1e1e1;
 }
