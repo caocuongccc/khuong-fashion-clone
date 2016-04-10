@@ -1,0 +1,53 @@
+/* ==|====================
+   Layout/Footer
+   ======================= */
+
+.l-footer {
+    background-color: #000;
+    height: 5em;
+    width: 93em;
+    position: absolute;
+}
+
+.contact-us {
+    position: fixed;
+    bottom: 0.4em;
+    right: 1em;
+    width: 15em;
+    height: 2.2em;
+    background: #0281DE;
+    border-radius: 1.5em;
+    text-align: center;
+}
+
+.contact-title {
+    top: -10em;
+}
+
+.footer-title {
+    float: left;
+    margin-top: 1em;
+    margin-left: 5em;
+    color:#fff;
+}
+
+.payment {
+    margin-top: 0.8em;
+    float: right;
+    margin-right: 8em;
+}
+
+.max-img {
+    width: 1.2em;
+    height: 1.2em;
+    margin-top: 0.25em;
+}
+
+.contact-details {
+    display: none;
+}
+
+.delimited {
+    margin-left: 0.5em;
+    margin-top: -0.2em;
+}

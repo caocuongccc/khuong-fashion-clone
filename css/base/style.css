@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 0.875em;
+    background: #FFF;
+    line-height: 1.25em;
+    color: #666;
+}
+
+h1 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}

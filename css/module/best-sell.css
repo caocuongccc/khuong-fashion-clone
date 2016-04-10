@@ -1,0 +1,42 @@
+.thumb-seller {
+    width: 6em;
+    height: 6em;
+}
+
+.best-item {
+    margin: 0.75em;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.wrapper-item {
+    display: inline-flex;
+}
+
+.seller-name {
+    color: #000;
+    padding-bottom: 0.5em;
+}
+
+.seller-name:hover {
+    color: #20a781;
+}
+
+.wrapper-text {
+    margin-left: 1em;
+}
+
+.seller-discount {
+    color: #888;
+    text-decoration: line-through;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.seller-price{
+    color: #CA0000;
+    font-size: 1.4em;
+}
+
+.seller-null {
+    margin-top: 0.7em;
+}
