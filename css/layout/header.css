@@ -1,4 +1,10 @@
-/* ------------------LAYOUT HEADER ----------------------*/
+/* ==|====================
+   Layout/Header
+   ======================= */
+.l-header {
+    display: inline-block;
+    width: 93em;
+}
 
 .top-bar {
     background: #DDD;
@@ -35,10 +41,6 @@
     color: #20a781;
 }
 
-.header {
-    display: inline-block;
-}
-
 .logo {
     float: left;
     margin-left: 3.5em;
@@ -46,7 +48,7 @@
     margin-bottom: 0.5em;
     margin-right: 9.5em;
 }
-.header form {
+.l-header form {
     float: left;
     margin-left: 2em;
     margin-top: 3em;
@@ -214,69 +216,4 @@ button:hover {
 
 tran-right {
     float: right;
-}
-
-.wrapper {
-    margin: 0 auto;
-    width: 76.25em;
-}
-
-.footer {
-    background-color: #000;
-    height: 5em;
-    position: absolute;
-}
-
-.contact-us {
-    position: fixed;
-    bottom: 0.4em;
-    right: 1em;
-    width: 15em;
-    height: 2.2em;
-    background: #0281DE;
-    border-radius: 1.5em;
-    text-align: center;
-}
-
-.contact-title {
-    top: -10em;
-}
-
-.footer-title {
-    float: left;
-    margin-top: 1em;
-    margin-left: 5em;
-    color:#fff;
-}
-
-.payment {
-    margin-top: 0.8em;
-    float: right;
-    margin-right: 8em;
-}
-
-.max-img {
-    width: 1.2em;
-    height: 1.2em;
-    margin-top: 0.25em;
-}
-
-.contact-details {
-    display: none;
-}
-
-.delimited {
-    margin-left: 0.5em;
-    margin-top: -0.2em;
-}
-
-.about-us {
-    margin: 0 auto;
-    display: inline-block;
-    width: 100%;
-}
-
-.about-row {
-    width: 20%;
-    display: inline-block;
 }

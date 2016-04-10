@@ -1,7 +1,7 @@
 /* ------------------LAYOUT PRODUCT ----------------------*/
 
 .main-content {
-    width: 75%;
+    width: 64em;
     float: right;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .corousel-img {
-    width: 57em;
+    width: 64em;
     height: 22em;
 }
 

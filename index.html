@@ -3,12 +3,21 @@
 <head>
     <meta charset="utf-8">
     <title>Shop Fashion Centeral | Thời trang cho phái Đẹp</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/aside.css">
-    <link rel="stylesheet" href="css/products.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/base/reset.css">
+    <link rel="stylesheet" href="css/base/style.css">
+    <link rel="stylesheet" href="css/layout/main.css">
+    <link rel="stylesheet" href="css/layout/header.css">
+    <link rel="stylesheet" href="css/layout/aside.css">
+    <link rel="stylesheet" href="css/layout/about.css">
+    <link rel="stylesheet" href="css/layout/footer.css">
+    <link rel="stylesheet" href="css/module/products.css">
+    <link rel="stylesheet" href="css/module/statics.css">
+    <link rel="stylesheet" href="css/module/category.css">
+    <link rel="stylesheet" href="css/module/products.css">
+    <link rel="stylesheet" href="css/module/news.css">
+    <link rel="stylesheet" href="css/module/best-sell.css">
+    <link rel="stylesheet" href="css/venders/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
     <div class="top-bar">
@@ -26,7 +35,7 @@
         </ul>
     </div>
 
-    <header class="header">
+    <header class="l-header">
         <img src="images/logo.gif" alt="logo" class="logo" />
         <form class="form-search" method="get" action="">
             <input class="input-search" type="text" value="Tim kiem san pham"/>
@@ -92,7 +101,7 @@
             </div>
         </div>
 
-        <aside class="aside">
+        <aside class="l-aside">
             <div class="category">
                 <div class="asign-header">
                     <h3 class="asign-title"><i class="fa fa-bars fa-1x fa-align"></i>Danh muc san pham</h3>
@@ -247,9 +256,6 @@
                     <li class="demo2-item">
                         <div>
                             <img src="images/thumb_best_05.jpeg" class="product-img" alt="Chan Vay Ngan Dang Xoe" />
-                           <!--<img src="/new.png" class="add-card" alt="Add to Card" />
-                            <img src="/new.png" class="view-detail" alt="View details" />
-                            <img src="/new.png" class="add-whishlist" alt="Add Whishlist" />-->
                         </div>
                         <a href="#" class="item2-name">Chan Vay Ngan Dang Xoe</a>
                         <p><span class="seller-price">16.000d</span><span class="seller-discount">22.000d</span></p>
@@ -469,7 +475,7 @@
 
     </div>
 
-    <div class="about-us">
+    <div class="l-about">
         <div class="about-row">
             <h1 class="about-subject">Thoi trang fashion dep</h1>
             <p>Hang Viet Nam chat luong cao - Thoi trang tre 2016</p>
@@ -507,12 +513,17 @@
 
         <div class="about-row">
             <h1 class="about-subject">Facebook</h1>
-
+<ul>
+                <li><a href="#">Gio hang</a></li>
+                <li><a href="#">Chinh sach van chuyen</a></li>
+                <li><a href="#">Chinh sach thanh toan</a></li>
+                <li><a href="#">Ban do</a></li>
+            </ul>
         </div>
 
    </div>
    
-   <footer class="footer">
+   <footer class="l-footer">
         <p class="footer-title">Copyright &copy 2016 Thaibinhweb.net. All Rights Reserved.</p>
         <img src="images/payment.png" alt="Payment" class="payment" />
 
