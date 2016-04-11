@@ -1,0 +1,35 @@
+.shoping-card {
+    float: right;
+    position: absolute;
+    top: 6em;
+    right: 3.5em;
+}
+
+.icon:after {
+    font-family: FontAwesome;
+   content: "\f0d7";
+   display: inline-block;
+   padding-left: 0.3em;
+   vertical-align: middle;
+}
+
+.shoping-card:hover +.shoping-details {
+    display: block;
+    width: 20em;
+    height: 6em;
+    background: #fff;
+    position: absolute;
+    right: 3.5em;
+    top: 7.3em;
+    border: 1px solid #eee;
+    line-height: 2em;
+    padding-right: 0.5em;
+}
+
+.shoping-card:hover {
+    color: #EA028A;
+}
+
+.shoping-details {
+    display: none;
+}

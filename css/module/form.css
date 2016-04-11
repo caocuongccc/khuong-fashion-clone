@@ -1,0 +1,30 @@
+form {
+    float: left;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+input[type=text] {
+    background-color: rgba(210, 201, 207, 0.26);
+    width: 20em;
+    color: #666;
+    border: none;
+    padding: 0.8em;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    margin-left: -0.25em;
+    width: 5em;
+    height: 2.75em;
+    background-color: #EA028A;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #20a781;
+}

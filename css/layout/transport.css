@@ -1,0 +1,10 @@
+/* ==|====================
+   Layout/Transport
+   ======================= */
+
+.l-transport {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

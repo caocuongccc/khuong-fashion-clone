@@ -1,0 +1,12 @@
+/* ==|====================
+   Module/Products with 3 items
+   ======================= */
+
+.demo3-items {
+    display: inline-block;
+    width: 33%;
+}
+
+.item2-name {
+    text-align: center;
+}

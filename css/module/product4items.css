@@ -1,0 +1,45 @@
+/* ==|====================
+   Module/Product with 4 items
+   ======================= */
+
+.product-header{
+    margin-bottom: 2em;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-img {
+    width: 13em;
+}
+
+.new {
+    position: absolute;
+    right: 1.5em;
+    top: -14px;
+}
+
+.view-detail {
+    position: absolute;
+    bottom: 1.5em;
+    left: 6em;
+}
+
+.add-card {
+    position: absolute;
+    bottom: 1.5em;
+    left: 4em;
+}
+
+.add-whishlist {
+    position: absolute;
+    bottom: 1.5em;
+    left: 8em;
+}
+.demo2-item {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin-bottom: 30px;
+}

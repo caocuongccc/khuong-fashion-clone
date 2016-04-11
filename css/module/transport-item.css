@@ -1,0 +1,23 @@
+.transport-content {
+    display: inline-flex;
+    color: #666;
+    width: 28em;
+    margin: 2em 0em 2em 2em;
+}
+
+.transport-content:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.transport-title {
+    text-transform: uppercase;
+}
+
+.tran-left {
+    float: left;
+}
+
+tran-right {
+    float: right;
+}

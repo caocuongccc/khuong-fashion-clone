@@ -1,0 +1,18 @@
+/* ==|====================
+   Module/Carousel
+   ======================= */
+
+.corousel {
+    position: relative;
+}
+
+.corousel-img {
+    width: 64em;
+    height: 22em;
+    margin-bottom: 20px;
+}
+
+.mark {
+    width: 64em;
+    margin-bottom: 20px;
+}
