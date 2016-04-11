@@ -1,3 +1,7 @@
+/* ==|====================
+   Module/Best Sell
+   ======================= */
+
 .thumb-seller {
     width: 6em;
     height: 6em;
@@ -35,8 +39,30 @@
 .seller-price{
     color: #CA0000;
     font-size: 1.4em;
+    margin-right: 15px;
 }
 
 .seller-null {
     margin-top: 0.7em;
+}
+
+.asign-header {
+    height: 2.5em;
+    background: #C30374;
+    text-align: center;
+}
+
+.fa-align {
+    margin-right: 1em;
+}
+
+.asign-title {
+    padding-top: 0.7em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.wrapper-item {
+    display: inline-flex;
+    margin-top: 0.5em;
 }

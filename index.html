@@ -10,17 +10,29 @@
     <link rel="stylesheet" href="css/layout/aside.css">
     <link rel="stylesheet" href="css/layout/about.css">
     <link rel="stylesheet" href="css/layout/footer.css">
-    <link rel="stylesheet" href="css/module/products.css">
+    <link rel="stylesheet" href="css/layout/products.css">
+    <link rel="stylesheet" href="css/layout/transport.css">
+    <link rel="stylesheet" href="css/layout/menu.css">
+    <link rel="stylesheet" href="css/layout/top-bar.css">
     <link rel="stylesheet" href="css/module/statics.css">
     <link rel="stylesheet" href="css/module/category.css">
     <link rel="stylesheet" href="css/module/products.css">
     <link rel="stylesheet" href="css/module/news.css">
+    <link rel="stylesheet" href="css/module/product4items.css">
+    <link rel="stylesheet" href="css/module/product3items.css">
+    <link rel="stylesheet" href="css/module/carousel.css">
+    <link rel="stylesheet" href="css/module/logo.css">
+    <link rel="stylesheet" href="css/module/form.css">
+    <link rel="stylesheet" href="css/module/cart.css">
+    <link rel="stylesheet" href="css/module/star.css">
+    <link rel="stylesheet" href="css/module/menu_vertical.css">
+    <link rel="stylesheet" href="css/module/transport-item.css">
     <link rel="stylesheet" href="css/module/best-sell.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
-    <div class="top-bar">
+    <div class="l-top">
         <p><img src="images/phone-24.png" alt="phone" class="phone-img" /><span class="phone-text">Dien thoai: 0942.691.366</span></p>
         <ul class="top-nav">
             <li>
@@ -41,14 +53,16 @@
             <input class="input-search" type="text" value="Tim kiem san pham"/>
             <button><i class="fa fa-search fa-1x"></i></button>
         </form>
-        <p class="shoping-card"> Gio hang: 0 item<span class="icon"></span></p>
+        <p class="shoping-card">
+                <i class="fa fa-shopping-cart fa-1x"></i>Gio hang: 0 item <i class="fa fa-caret-down fa-1x"></i>
+        </p>
         <div class="shoping-details right">
                 <p>Ban khong co san pham nao trong gio hang cua ban.</p>
                 <p><span class="bold">Tong gia tien : </span>  0d</p>
         </div>
     </header>
 
-    <div class="menu" >
+    <div class="l-menu" >
         <ul class="main-nav">
             <li><a href="#">Trang chu</a></li>
             <li class="sub-nav"><a href="#">San pham</a>
@@ -75,7 +89,7 @@
     </div>
 
     <div class="wrapper">
-        <div class="transport">
+        <div class="l-transport">
             <div class="transport-content tran-left">
                 <i class="fa fa-truck fa-2x"></i>
                 <div class="delimited">
@@ -232,7 +246,7 @@
 
         </aside>
 
-        <div class="main-content">
+        <div class="l-products">
             <div class="corousel">
                 <img src ="images/fashion-banner02.jpg" alt="Get amazing change" class="corousel-img" />
             </div>
@@ -248,49 +262,67 @@
                             <i class="fa fa-eye fa-1x view-detail"></i>
                             <i class="fa fa-heart fa-1x add-whishlist"></i>
                         </div>
-                        <a href="#" class="item2-name">Bo Do Ngo Nghinh</a>
+                        <a href="#" class="seller-name">Bo Do Ngo Nghinh</a>
                         <p><span class="seller-price">200.000d</span><span class="seller-discount">300.000d</span></p>
-                        <img src="images/" />
+                        <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        </div>
                     </li>
 
                     <li class="demo2-item">
                         <div>
                             <img src="images/thumb_best_05.jpeg" class="product-img" alt="Chan Vay Ngan Dang Xoe" />
                         </div>
-                        <a href="#" class="item2-name">Chan Vay Ngan Dang Xoe</a>
+                        <a href="#" class="seller-name">Chan Vay Ngan Dang Xoe</a>
                         <p><span class="seller-price">16.000d</span><span class="seller-discount">22.000d</span></p>
-                        <img src="images/" />
+                        <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        </div>
                     </li>
 
                     <li class="demo2-item">
                         <div>
                             <img src="images/thumb_best_05.jpeg" class="product-img" alt="Chan Vay Ngan Dang Xoe" />
-                            <!--<img src="/new.png" class="add-card" alt="Add to Card" />
-                            <img src="/new.png" class="view-detail" alt="View details" />
-                            <img src="/new.png" class="add-whishlist" alt="Add Whishlist" />-->
                         </div>
-                        <a href="#" class="item2-name">Chan Vay Ngan Dang Xoe</a>
+                        <a href="#" class="seller-name">Chan Vay Ngan Dang Xoe</a>
                         <p><span class="seller-price">16.000d</span><span class="seller-discount">22.000d</span></p>
-                        <img src="images/" />
+                        <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        </div>
                     </li>
 
                     <li class="demo2-item">
                         <div>
                             <img src="images/thumb_xa-hang.jpg" class="product-img" alt="Chan vay 001" />
-                            <!--<img src="/new.png" class="add-card" alt="Add to Card" />
-                            <img src="/new.png" class="view-detail" alt="View details" />
-                            <img src="/new.png" class="add-whishlist" alt="Add Whishlist" />-->
                         </div>
-                        <a href="#" class="item2-name">Chan Vay 001</a>
+                        <a href="#" class="seller-name">Chan Vay 001</a>
                         <p><span class="seller-price">20.000d</span><span class="seller-discount">25.000d</span></p>
-                        <img src="images/" />
+                        <div class="star orange-star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star-half-o fa-1x"></i>
+                        </div>
                     </li>
 
                 </ul>
 
             </div>
 
-            <img src="images/mark.png"class="mark"/>
+            <img src="images/banner_event_2jrjin01n224j.jpg"class="mark"/>
 
             <div class="demo2-product">
                 <h1 class="product-header"><img src="images/bg_vina_title.png"/>San pham demo2</h1>
@@ -298,97 +330,153 @@
                     <li class="demo2-item">
                         <div class="product-image">
                             <img src="images/thumb_112.jpg" class="product-img" alt="Bo do Ngo Nghinh" />
-                            <img src="images/new.png" class="add-card" alt="Add to Card" />
-                            <img src="images/new.png" class="view-detail" alt="View details" />
-                            <img src="images/new.png" class="add-whishlist" alt="Add Whishlist" />
+                            <img src="images/new.png" class="new" alt="Add to Card" />
+                            <i class="fa fa-shopping-cart fa-1x add-card"></i>
+                            <i class="fa fa-eye fa-1x view-detail"></i>
+                            <i class="fa fa-heart fa-1x add-whishlist"></i>
                         </div>
                         <a href="#" class="item2-name">Bo Do Ngo Nghinh</a>
                         <p><span class="seller-price">200.000d</span><span class="seller-discount">300.000d</span></p>
-                        <img src="images/" />
+                        <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        </div>
                     </li>
 
                     <li class="demo2-item">
                         <div class="product-image">
                             <img src="images/thumb_best_05.jpeg" class="product-img" alt="Chan Vay Ngan Dang Xoe" />
-                            <img src="images/new.png" class="add-card" alt="Add to Card" />
-                            <img src="images/new.png" class="view-detail" alt="View details" />
-                            <img src="images/new.png" class="add-whishlist" alt="Add Whishlist" />
+                            <img src="images/new.png" class="new" alt="Add to Card" />
+                            <i class="fa fa-shopping-cart fa-1x add-card"></i>
+                            <i class="fa fa-eye fa-1x view-detail"></i>
+                            <i class="fa fa-heart fa-1x add-whishlist"></i>
                         </div>
                         <a href="#" class="item2-name">Chan Vay Ngan Dang Xoe</a>
                         <p><span class="seller-price">16.000d</span><span class="seller-discount">22.000d</span></p>
-                        <img src="images/" />
+                        <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        </div>
                     </li>
 
                     <li class="demo2-item">
                         <div class="product-image">
                             <img src="images/thumb_best_05.jpeg" class="product-img" alt="Chan Vay Ngan Dang Xoe" />
-                            <img src="images/new.png" class="add-card" alt="Add to Card" />
-                            <img src="images/new.png" class="view-detail" alt="View details" />
-                            <img src="images/new.png" class="add-whishlist" alt="Add Whishlist" />
+                            <img src="images/new.png" class="new" alt="Add to Card" />
+                            <i class="fa fa-shopping-cart fa-1x add-card"></i>
+                            <i class="fa fa-eye fa-1x view-detail"></i>
+                            <i class="fa fa-heart fa-1x add-whishlist"></i>
                         </div>
                         <a href="#" class="item2-name">Chan Vay Ngan Dang Xoe</a>
                         <p><span class="seller-price">16.000d</span><span class="seller-discount">22.000d</span></p>
-                        <img src="images/" />
+                        <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        </div>
                     </li>
 
                     <li class="demo2-item">
                         <div class="product-image">
                             <img src="images/thumb_xa-hang.jpg" class="product-img" alt="Chan vay 001" />
-                            <img src="images/new.png" class="add-card" alt="Add to Card" />
-                            <img src="images/new.png" class="view-detail" alt="View details" />
-                            <img src="images/new.png" class="add-whishlist" alt="Add Whishlist" />
+                            <img src="images/new.png" class="new" alt="Add to Card" />
+                            <i class="fa fa-shopping-cart fa-1x add-card"></i>
+                            <i class="fa fa-eye fa-1x view-detail"></i>
+                            <i class="fa fa-heart fa-1x add-whishlist"></i>
                         </div>
                         <a href="#" class="item2-name">Chan Vay 001</a>
                         <p><span class="seller-price">20.000d</span><span class="seller-discount">25.000d</span></p>
-                        <img src="images/" />
+                        <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        </div>
                     </li>
 
                     <li class="demo2-item">
                         <div class="product-image">
                             <img src="images/thumb_Ao_khoac_tai_gau_06.jpg" class="product-img" alt="Ao Khoac Nu Dep Eva" />
-                            <img src="images/new.png" class="add-card" alt="Add to Card" />
-                            <img src="images/new.png" class="view-detail" alt="View details" />
-                            <img src="images/new.png" class="add-whishlist" alt="Add Whishlist" />
+                            <img src="images/new.png" class="new" alt="Add to Card" />
+                            <i class="fa fa-shopping-cart fa-1x add-card"></i>
+                            <i class="fa fa-eye fa-1x view-detail"></i>
+                            <i class="fa fa-heart fa-1x add-whishlist"></i>
                         </div>
                         <a href="#" class="item2-name">Ao Khoac Nu Dep Eva</a>
                         <p><span class="item2-price">Lien He</span></p>
-                        <img src="images/" />
+                        <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        </div>
                     </li>
 
                     <li class="demo2-item">
                         <div class="product-image">
                             <img src="images/thumb_112.jpg" class="product-img" alt="Bo do Ngo Nghinh" />
-                            <img src="images/new.png" class="add-card" alt="Add to Card" />
-                            <img src="images/new.png" class="view-detail" alt="View details" />
-                            <img src="images/new.png" class="add-whishlist" alt="Add Whishlist" />
+                            <img src="images/new.png" class="new" alt="Add to Card" />
+                            <i class="fa fa-shopping-cart fa-1x add-card"></i>
+                            <i class="fa fa-eye fa-1x view-detail"></i>
+                            <i class="fa fa-heart fa-1x add-whishlist"></i>
                         </div>
                         <a href="#" class="item2-name">Bo Do Ngo Nghinh</a>
                         <p><span class="seller-price">200.000d</span><span class="seller-discount">300.000d</span></p>
-                        <img src="images/" />
+                        <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        </div>
                     </li>
 
                     <li class="demo2-item">
                         <div class="product-image">
                             <img src="images/thumb_best_05.jpeg" class="product-img" alt="Chan Vay Ngan Dang Xoe" />
-                            <img src="images/new.png" class="add-card" alt="Add to Card" />
-                            <img src="images/new.png" class="view-detail" alt="View details" />
-                            <img src="images/new.png" class="add-whishlist" alt="Add Whishlist" />
+                            <img src="images/new.png" class="new" alt="Add to Card" />
+                            <i class="fa fa-shopping-cart fa-1x add-card"></i>
+                            <i class="fa fa-eye fa-1x view-detail"></i>
+                            <i class="fa fa-heart fa-1x add-whishlist"></i>
                         </div>
                         <a href="#" class="item2-name">Chan Vay Ngan Dang Xoe</a>
                         <p><span class="seller-price">16.000d</span><span class="seller-discount">22.000d</span></p>
-                        <img src="images/" />
+                        <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        </div>
                     </li>
 
                     <li class="demo2-item">
                         <div class="product-image">
                             <img src="images/thumb_xa-hang.jpg" class="product-img" alt="Chan vay 001" />
-                            <img src="images/new.png" class="add-card" alt="Add to Card" />
-                            <img src="images/new.png" class="view-detail" alt="View details" />
-                            <img src="images/new.png" class="add-whishlist" alt="Add Whishlist" />
+                            <img src="images/new.png" class="new" alt="Add to Card" />
+                            <i class="fa fa-shopping-cart fa-1x add-card"></i>
+                            <i class="fa fa-eye fa-1x view-detail"></i>
+                            <i class="fa fa-heart fa-1x add-whishlist"></i>
                         </div>
                         <a href="#" class="item2-name">Chan Vay 001</a>
                         <p><span class="seller-price">20.000d</span><span class="seller-discount">25.000d</span></p>
-                        <img src="images/" />
+                        <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -513,12 +601,6 @@
 
         <div class="about-row">
             <h1 class="about-subject">Facebook</h1>
-<ul>
-                <li><a href="#">Gio hang</a></li>
-                <li><a href="#">Chinh sach van chuyen</a></li>
-                <li><a href="#">Chinh sach thanh toan</a></li>
-                <li><a href="#">Ban do</a></li>
-            </ul>
         </div>
 
    </div>

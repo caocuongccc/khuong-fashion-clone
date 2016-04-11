@@ -8,22 +8,6 @@
     margin: 0 auto;
 }
 
-.asign-header {
-    height: 2.5em;
-    background: #C30374;
-    text-align: center;
-}
-
-.fa-align {
-    margin-right: 1em;
-}
-
-.asign-title {
-    padding-top: 0.7em;
-    color: #fff;
-    text-transform: uppercase;
-}
-
 .how-work {
     width: 17em;
 }
@@ -31,9 +15,3 @@
 .jim-pic {
     width: 17em;
 }
-
-.wrapper-item {
-    display: inline-flex;
-    margin-top: 0.5em;
-}
-
