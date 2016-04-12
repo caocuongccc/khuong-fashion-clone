@@ -3,10 +3,41 @@
    ======================= */
 
 .demo3-items {
+    padding: 5px;
     display: inline-block;
-    width: 33%;
+    width: 17em;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 40px;
+    vertical-align: middle;
 }
 
-.item2-name {
-    text-align: center;
+.pro3-img {
+    float: left;
+    width: 100px;
+    height: 140px;
+    margin-right: 10px;
+}
+
+pro3-detail {
+    float: right;
+    margin-left: 20px;
+}
+
+.item3-name {
+    color: #333;
+}
+
+.item3-price {
+    color: #CA0000;
+    font-size: 1.35em;
+}
+
+.star {
+    margin-top: 5px;
+}
+
+.item3-price-null {
+    margin-top: 5px;
 }

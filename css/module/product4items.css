@@ -1,9 +1,15 @@
 /* ==|====================
    Module/Product with 4 items
    ======================= */
+.demo2-item {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 .product-header{
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .product-image {
@@ -37,9 +43,7 @@
     bottom: 1.5em;
     left: 8em;
 }
-.demo2-item {
-    display: inline-block;
-    width: 24%;
-    text-align: center;
-    margin-bottom: 30px;
+
+.item2-name {
+    color: #333;
 }

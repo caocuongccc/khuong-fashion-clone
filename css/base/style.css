@@ -26,3 +26,7 @@ a {
 .bold {
     font-weight: bold;
 }
+
+.break-line {
+    display: block;
+}

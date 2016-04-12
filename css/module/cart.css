@@ -24,6 +24,7 @@
     border: 1px solid #eee;
     line-height: 2em;
     padding-right: 0.5em;
+    transition: all 10s ease;
 }
 
 .shoping-card:hover {
@@ -32,4 +33,5 @@
 
 .shoping-details {
     display: none;
+    transition: all 15s ease;
 }

@@ -3,11 +3,7 @@
    ======================= */
 .l-about {
     display: inline-block;
-    width: 93em;
-    text-align: center;
-}
-
-.about-row {
-    width: 18.2em;
-    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #eee;
 }
