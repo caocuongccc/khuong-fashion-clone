@@ -1,0 +1,33 @@
+
+.about-row {
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+    padding: 20px 20px 20px;
+}
+
+.icon {
+    width: 2.2em;
+    vertical-align: middle;
+}
+
+.about-subject {
+    margin-bottom: 10px;
+}
+
+.about-detail {
+    line-height: 25px;
+}
+
+.fashion-detail {
+    line-height: 25px;
+    color: #666;
+}
+
+.about-detail li a:hover {
+    color: #20a781;
+}
+
+.about-detail li a {
+    color: #444;
+}
