@@ -30,3 +30,7 @@ a {
 .break-line {
     display: block;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}

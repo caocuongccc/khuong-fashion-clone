@@ -21,3 +21,7 @@
 .a-nav li a:hover {
     color: #20a781;
 }
+
+.separate-nav {
+    margin-left: 70px;
+}

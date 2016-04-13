@@ -5,14 +5,6 @@
     right: 3.5em;
 }
 
-.icon:after {
-    font-family: FontAwesome;
-   content: "\f0d7";
-   display: inline-block;
-   padding-left: 0.3em;
-   vertical-align: middle;
-}
-
 .shoping-card:hover +.shoping-details {
     display: block;
     width: 20em;
@@ -27,11 +19,22 @@
     transition: all 10s ease;
 }
 
+.icon-shop {
+    height: 20px;
+    border-radius: 20px;
+    background: #EA028A;
+    margin-right: 5px
+}
+
 .shoping-card:hover {
     color: #EA028A;
 }
 
 .shoping-details {
     display: none;
-    transition: all 15s ease;
+}
+
+.fa-shopping-cart {
+    color: #FFF;
+    margin-right: 5px;
 }

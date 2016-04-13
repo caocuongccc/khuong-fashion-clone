@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
-    <div class="l-top">
+    <section class="l-top">
         <p><img src="images/phone-24.png" alt="phone" class="phone-img" /><span class="phone-text">Dien thoai: 0942.691.366</span></p>
         <ul class="top-nav">
             <li>
@@ -46,16 +46,16 @@
                 <a href="#">Kiem tra</a>
             </li>
         </ul>
-    </div>
+    </section>
 
     <header class="l-header">
         <img src="images/logo.gif" alt="logo" class="logo" />
         <form class="form-search" method="get" action="">
-            <input class="input-search" type="text" value="Tim kiem san pham"/>
+            <input class="input-search" type="text" placeholder="Tim kiem san pham"/>
             <button><i class="fa fa-search fa-1x"></i></button>
         </form>
         <p class="shoping-card">
-                <i class="fa fa-shopping-cart fa-1x"></i>Gio hang: 0 item <i class="fa fa-caret-down fa-1x"></i>
+                <span class="icon-shop"><i class="fa fa-shopping-cart fa-1x"></i></span><span class="uppercase">Gio hang</span>: 0 item <i class="fa fa-caret-down fa-1x"></i>
         </p>
         <div class="shoping-details right">
                 <p>Ban khong co san pham nao trong gio hang cua ban.</p>
@@ -124,8 +124,8 @@
                 <ul class="a-nav">
                     <li><a href="#">Ao so mi nu</a></li>
                     <li><a href="#">Ao khoac nu</a></li>
-                    <li><a href="#">Chan vay</a></li>
-                    <li><a href="#">Ao thun nu<i class="fa fa-plus fa-1x fa-align"></i></a></li>
+                    <li><a href="#">Chan vay<img src="images/bg-left-menu.png" class="separate-nav" /></a></li>
+                    <li><a href="#">Ao thun nu</a></li>
                     <li><a href="#">Phu kien</a></li>
                     <li><a href="#">Tui xach</a></li>
                     <li><a href="#">Quan ao ngu</a></li>
@@ -232,16 +232,16 @@
                 </div>
                 <div class="statisc-content">
                     <p>4881</p>
-                    <p class="statics-item"><img src="images/vtoday.gif" class="statics-img"/>Hom nay <span class="count-number">20</span></p>
+                    <p class="statics-item"><img src="images/vtoday.gif" class="statics-img"/><span class="static-left">Hom nay </span><span class="count-number">20</span></p>
 
-                    <p class="statics-item"><img src="images/vyesterday.gif" class="statics-img"/>Hom nay <span class="count-number">14</span></p>
+                    <p class="statics-item"><img src="images/vyesterday.gif" class="statics-img"/><span class="static-left">Hom qua</span> <span class="count-number">14</span></p>
 
-                    <p class="statics-item"><img src="images/vweek.gif" class="statics-img"/>Hom nay <span class="count-number">89</span></p>
+                    <p class="statics-item"><img src="images/vweek.gif" class="statics-img"/><span class="static-left">Tuan</span> <span class="count-number">89</span></p>
 
-                    <p class="statics-item"><img src="images/vmonth.gif" class="statics-img"/>Hom nay <span class="count-number">20</span></p>
+                    <p class="statics-item"><img src="images/vmonth.gif" class="statics-img"/><span class="static-left">Thang</span><span class="count-number">20</span></p>
 
 
-                    <p class="statics-item"><img src="images/vall.gif" class="statics-img"/>Hom nay <span class="count-number">4881</span></p>
+                    <p class="statics-item"><img src="images/vall.gif" class="statics-img"/><span class="static-left">Tong</span></span><span class="count-number">4881</span></p>
                     </div>
             </div>
 
@@ -259,9 +259,9 @@
                         <div class="product-image">
                             <img src="images/thumb_112.jpg" class="product-img" alt="Bo do Ngo Nghinh" />
                             <img src="images/new.png" class="new" alt="Add to Card" />
-                            <i class="fa fa-shopping-cart fa-1x add-card"></i>
-                            <i class="fa fa-eye fa-1x view-detail"></i>
-                            <i class="fa fa-heart fa-1x add-whishlist"></i>
+                            <span class="icon-shop"><i class="fa fa-shopping-cart fa-1x add-card"></i></span>
+                            <span class="icon-shop"><i class="fa fa-eye fa-1x view-detail"></i></span>
+                            <span class="icon-shop"><i class="fa fa-heart fa-1x add-whishlist"></i></span>
                         </div>
                         <a href="#" class="seller-name">Bo Do Ngo Nghinh</a>
                         <p><span class="seller-price">200.000d</span><span class="seller-discount">300.000d</span></p>

@@ -4,14 +4,25 @@
 
 .statisc-content {
     text-align: center;
-    margin: 1em;
+    margin: 0em;
+    position: relative;
 }
 
 .count-number {
     margin-left: 6em;
+    float: right;
 }
 
 .statics-img{
     margin-right: 1em;
     border-bottom: 0.1em dashed #e1e1e1;
+    float: left;
 }
+
+.statics-item {
+    border-bottom: 1.5px #cccccc dashed;
+}
+
+.static-left {
+    vertical-align: middle;
+    text-align: center;}
