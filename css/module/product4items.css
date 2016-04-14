@@ -26,27 +26,12 @@
     top: -14px;
 }
 
-.view-detail {
-    position: absolute;
-    bottom: 1.5em;
-    left: 6em;
-}
-
-.add-card {
-    position: absolute;
-    bottom: 1.5em;
-    left: 4em;
-}
-
-.add-whishlist {
-    position: absolute;
-    bottom: 1.5em;
-    left: 8em;
-}
-
 .item4-name {
     color: #333;
-    display: inline-block
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 .item4-name:hover {
@@ -55,23 +40,38 @@
 
 .item2-name {
     color: #333;
-    display: inline-block
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 .btn-group {
     position: relative;
-    left: 65px;
-    top: -40px;
 }
 
 .bg-thumb {
-    width: 24px;
-    height: 24px;
-    border-radius: 12px;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
     background-color: #666;
     text-align: center;
     margin-right: 5px;
     float: left;
     position: relative;
-    top: -5px;
+}
+
+.bg-thumb:hover{
+    background-color: #20a781;
+}
+
+.btn-group {
+    display: none;
+}
+
+.product-image:hover .btn-group{
+    display: block;
+    position: absolute;
+    left: 65px;
+    bottom: 15px;
 }
