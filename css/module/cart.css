@@ -1,8 +1,9 @@
 .shoping-card {
     float: right;
     position: absolute;
-    top: 6em;
-    right: 3.5em;
+      top: 5.5em;
+    right: 0em;
+    width: 15em;
 }
 
 .shoping-card:hover +.shoping-details {
@@ -34,7 +35,20 @@
     display: none;
 }
 
-.fa-shopping-cart {
+.fa-shopping-cart, .fa-heart, .fa-eye{
     color: #FFF;
+    margin-top: 5px;
+    margin-right: 1px;
+}
+
+.bg-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #EA028A;
+    text-align: center;
     margin-right: 5px;
+    float: left;
+    position: relative;
+    top: -5px;
 }

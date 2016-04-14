@@ -44,6 +44,34 @@
     left: 8em;
 }
 
+.item4-name {
+    color: #333;
+    display: inline-block
+}
+
+.item4-name:hover {
+    color: #20a781;
+}
+
 .item2-name {
     color: #333;
+    display: inline-block
+}
+
+.btn-group {
+    position: relative;
+    left: 65px;
+    top: -40px;
+}
+
+.bg-thumb {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #666;
+    text-align: center;
+    margin-right: 5px;
+    float: left;
+    position: relative;
+    top: -5px;
 }
