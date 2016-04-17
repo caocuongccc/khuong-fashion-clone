@@ -18,8 +18,18 @@
 
 .product-img {
     width: 13em;
+    margin-bottom: 5px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out
+    -moz-transition: all 0.2s ease-in-out
 }
 
+.product-img:hover {
+    transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+
+}
 .new {
     position: absolute;
     right: 1.5em;
