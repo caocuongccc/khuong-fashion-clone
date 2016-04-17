@@ -22,6 +22,10 @@
 
 .contact-title {
     top: -10em;
+    -webkit-animation: changedcolor 10s infinite;
+    -moz-animation: changedcolor 10s infinite;
+    animation: changedcolor 10s infinite;
+    cursor: pointer;
 }
 
 .footer-title {
@@ -50,4 +54,28 @@
 .delimited {
     margin-left: 0.5em;
     margin-top: -0.2em;
+}
+
+@-webkit-keyframes changedcolor {
+    0% { color: yellow; }
+    25% { color: #FFF; }
+    50% { color: #06F5D7; }
+    75% { color: #C2E60F}
+    100% { color: #07FF29; }
+}
+
+@keyframes changedcolor {
+    0% { color: yellow; }
+    25% { color: #FFF; }
+    50% { color: #06F5D7; }
+    75% { color: #C2E60F}
+    100% { color: #07FF29; }
+}
+
+@-o-keyframes changedcolor {
+    0% { color: yellow; }
+    25% { color: #FFF; }
+    50% { color: #06F5D7; }
+    75% { color: #C2E60F}
+    100% { color: #07FF29; }
 }

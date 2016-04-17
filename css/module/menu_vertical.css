@@ -6,7 +6,7 @@
 .main-nav li {
     display: inline-block;
     line-height: 3em;
-    width: 5em;
+    width: 7em;
     height: 3em;
     text-align: center;
 }
@@ -14,13 +14,13 @@
 .main-nav a{
     text-transform: uppercase;
     color: #fff;
-    font-size: 0.8em;
+    font-size: 1em;
     display: inline;
 
 }
 
 .main-nav li:hover {
-    background-color: #C30374
+    background-color: #C30374;
 }
 
 .main-nav li:hover .nav-second {
@@ -48,10 +48,19 @@
 
 .nav-second li a:hover {
     color: #e1e1e1 ;
+
 }
 
 .nav-second {
     display: none;
+    position: relative;
+}
+
+.nav-second li:hover .third-nav{
+    display: block;
+    position: absolute;
+    right: -160px;
+    bottom: 0px;
 }
 
 .third-nav {
@@ -64,4 +73,8 @@
     font-size: 0.8em;
     top: 13.3em;
     color: #fff;
+}
+
+.fa-caret-down {
+    color: #FFF;
 }

@@ -17,7 +17,7 @@
     border: 1px solid #eee;
     line-height: 2em;
     padding-right: 0.5em;
-    transition: all 10s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .icon-shop {
