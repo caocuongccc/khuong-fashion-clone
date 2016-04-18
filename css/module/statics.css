@@ -32,3 +32,7 @@
     vertical-align: middle;
     float: left;
 }
+
+static_total {
+    margin-top: 10px;
+}
