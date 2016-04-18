@@ -23,11 +23,13 @@
 
 .top-nav li {
     display: inline-block;
+    overflow: hidden;
 }
 
 .top-nav li a{
     color: #D60202;
     display: inline-block;
+    overflow: hidden;
     margin-right: 1em;
 }
 

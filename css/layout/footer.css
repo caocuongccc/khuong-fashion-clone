@@ -15,9 +15,21 @@
     right: 1em;
     width: 15em;
     height: 2.2em;
-    background: #0281DE;
     border-radius: 1.5em;
     text-align: center;
+    line-height: 32px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    background-color: #0281DE;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.77), #0281DE);
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.77), #0281DE);
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.77), #0281DE);
+    background: linear-gradient(rgba(0, 0, 0, 0.77), #0281DE);
+    box-shadow: inset 0 5px 5px rgba(255, 255, 255, 0.4), 0 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .contact-title {

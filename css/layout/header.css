@@ -2,8 +2,9 @@
    Layout/Header
    ======================= */
 .l-header {
-    display: inline-block;
+    display: block;
     width: 93em;
+    overflow: hidden;
 }
 
 
