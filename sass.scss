@@ -1,0 +1,41 @@
+$color: #333;
+$color-text-main: #00ff00;
+
+body {
+  color: $color;
+}
+
+@mixin border-radius ($radius) {
+  -moz-boder-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.box {
+  @include border-radius(10px);
+}
+
+#main p {
+  color: #color-text-main;
+  width: 97%;
+
+  .redbox{ 
+    background-color: #ff00ff;
+  }
+}
+
+body .home {
+  
+  .media-unit {
+  border: 1-x soild #ccc;
+  background-color: #fff;
+
+  .right {
+    boder-left: 1px soild #ccc;
+    
+    h1 {
+    font-size: 24px;
+    }
+  }
+}
+}
