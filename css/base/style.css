@@ -20,4 +20,7 @@ body .home .media-unit {
     body .home .media-unit .right h1 {
       font-size: 24px; }
 
+p {
+  color: rgba(255, 255, 0, 0.75); }
+
 /*# sourceMappingURL=style.css.map */

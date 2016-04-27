@@ -25,17 +25,20 @@ body {
 }
 
 body .home {
-  
-  .media-unit {
-  border: 1-x soild #ccc;
-  background-color: #fff;
+    .media-unit {
+    border: 1-x soild #ccc;
+    background-color: #fff;
 
-  .right {
-    boder-left: 1px soild #ccc;
+    .right {
+      boder-left: 1px soild #ccc;
     
-    h1 {
-    font-size: 24px;
+      h1 {
+      font-size: 24px;
+      }
     }
   }
 }
+
+p {
+  color: rgba(255, 0, 0, 0.75) + rgba(0, 255, 0, 0.75);
 }

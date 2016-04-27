@@ -1,0 +1,189 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#login-block {
+    text-align: center;
+    margin-top: -90px;
+    z-index: 20;
+    position: relative;
+    background-image: url('../img/login-bg.png');
+    background-size: cover;
+}
+.login-block-container {
+    width: 100%;
+    width: 340px;
+    display: inline-block;
+    margin: 55px 0 auto;
+}
+#login-block .btn {
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+}
+#login-block .btn-login-facebook {
+    background-color: #3b5998;
+}
+#login-block .btn-login-gmail {
+    background-color: #d34836;
+}
+#login-block .btn-login-fast {
+    background-color: #4099FF;
+}
+span.icon-menu {
+    color: #fff;
+    font-size: 30px;
+}
+.container.nav-block {
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+}
+.nav-block .navbar {
+    margin-bottom: 3px;
+}
+.carousel-control .icon {
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+#carousel-login-generic {
+    max-height: 350px;
+}
+#carousel-login-generic .item span {
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+}
+.footer-container {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+}
+.footer-container footer p {
+    margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+    .item-content {
+        display: none;
+    }
+    #login-block {
+        margin-top: -60px;
+    }
+}
+@media (max-width: 568px) {
+    .login-block-container {
+        width: 300px;
+    }
+    #login-block .btn {
+        font-size: 15px;
+    }
+}
+
+footer {
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: 'chaoech';
+    src:    url('../fonts/chaoech.eot?94xann');
+    src:    url('../fonts/chaoech.eot?94xann#iefix') format('embedded-opentype'),
+        url('../fonts/chaoech.ttf?94xann') format('truetype'),
+        url('../fonts/chaoech.woff?94xann') format('woff'),
+        url('../fonts/chaoech.svg?94xann#chaoech') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'chaoech' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+    
+.border {
+    border: 20px solid #f2f2f2;
+    height: 550px;
+    position: relative;
+}
+
+
+.logo {
+    position: absolute;
+    left: 45%;
+}
+.img1 {
+    width: 120px;
+    position: absolute;
+}
+.img2 {
+    top: 87px;
+    width: 120px;
+    position: absolute;
+}
+
+.img3 {
+    top: 147px;
+    left: 7px;
+    width: 120px;
+    position: absolute;
+}
+
+.img4 {
+    top: 205px;
+    left: -7px;
+    width: 150px;
+    position: absolute;
+}
+
+.img5 {   
+    bottom: -525px;
+    left: -72px;
+    width: 250px;
+    position: absolute;
+}
+
+.details{
+  padding: 20px;
+} 
+
+.social-icon {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
+
+.section-number {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-top: 70px;
+    width: 75px;
+    height: 118px;
+    background: #dc8068;
+    text-align: center;
+    font-size: 1pc;
+    color: #fff;
+}
+
+.section-number:before {
+    position: absolute;
+    top: 30px;
+    height: 23px;
+    background: url(../../resources/beans.gif) center no-repeat;
+    content: '';
+    left: 0;
+    width: 100%;
+}
