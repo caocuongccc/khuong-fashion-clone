@@ -1,0 +1,95 @@
+// import necessary things
+@import "normalize";
+@import "compass";
+
+
+// font-face
+@include font-face("ModernPictogramsNormal", font-files("../fonts/modernpics-webfont.ttf", "../fonts/modernpics-webfont.woff", "../fonts/modernpics-webfont.eot", "../fonts/modernpics-webfont.svg"));
+
+// color variables
+$base: #fff;
+$dark: darken($base, 10%);
+
+// dimension variables
+$width: 500px;
+$space: $width / 25;
+$img: image-width("me.jpg") + (($space / 4) * 2);
+
+// selector inheritance 
+.float-left {
+  float: left;
+}
+.box-sizing {
+  @include box-sizing(border-box);
+}
+
+// styles
+html { 
+  height: 100%;
+  background-color: $base;
+}
+.vcard {
+  width: $width;
+  margin: 50px auto;
+  background-color: darken($base, 5%);
+  border: 1px solid $dark;
+  @include border-radius(3px);
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+    }
+  } 
+}
+.bio {
+  border-bottom: 1px solid $dark;
+  padding: $space;
+  @extend .box-sizing;
+  img {
+    display: block;
+    border: ($space / 4) solid #ffffff;
+    @extend .float-left;
+  }
+  .detail {
+    @extend .float-left;
+    @extend .box-sizing;
+    color: darken($base, 50%);
+    margin: {
+      left: $space;
+      bottom: $space / 2;
+    }
+    width: $width - (($space * 3) + $img);
+    li {
+      &:before {
+        width: $space;
+        height: $space;
+        margin-right: $space;
+        font-family: "ModernPictogramsNormal";
+      }
+      &.name:before {
+          content: "f";
+      }
+      &.email:before {
+          content: "m";
+      }
+      &.phone:before {
+          content: "N"; 
+      }
+    }
+  }
+}
+.social {
+  background-color: $dark;
+  width: 100%;
+  padding: $space;
+  @extend .box-sizing;
+  ul {
+    text-align: center;
+    li {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
