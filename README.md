@@ -1,5 +1,5 @@
 # SASS Doing
-Please `gem install compass ` to _run_.
-Then press on terminal `compass compile` to build .scss (have some sass helper function) to ._css_
-Folder stylesheets is empty, then build it created styles._css_
-File config.rb config for sass, stylesheet link for _build_
+1. Please `gem install compass ` to run.
+2. Then press on terminal `compass compile` to build .scss (have some sass helper function) to .css
+3. Folder stylesheets is empty, then build it created styles.css
+4. File config.rb config for sass, stylesheet link for build
