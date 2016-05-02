@@ -2,9 +2,10 @@
 @import "normalize";
 @import "compass";
 
+@import "compass/css3";
 
 // font-face
-@include font-face("ModernPictogramsNormal", font-files("../fonts/modernpics-webfont.ttf", "../fonts/modernpics-webfont.woff", "../fonts/modernpics-webfont.eot", "../fonts/modernpics-webfont.svg"));
+@include font-face("ModernPictogramsNormal", font-files("modernpics-webfont.ttf", "modernpics-webfont.woff", "modernpics-webfont.eot", "modernpics-webfont.eot", "modernpics-webfont.svg"));
 
 // color variables
 $base: #fff;
@@ -15,6 +16,8 @@ $width: 500px;
 $space: $width / 25;
 $img: image-width("me.jpg") + (($space / 4) * 2);
 
+
+$color-p: #34dc34;
 // selector inheritance 
 .float-left {
   float: left;
@@ -92,4 +95,54 @@ html {
       height: 32px;
     }
   }
+}
+
+.module-parent{
+  h1{
+    line-height: 1.5em;
+    padding-right: 15px;
+  }
+
+  h2{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  p{
+    color: color-p;
+    font-size: 14px;
+    a{
+      color: red;
+      &:hover{
+        color: #dfdcad;
+      }
+    }
+  }
+}
+
+// Border shorthand version
+@mixin border($border) {
+  border: $border;
+}
+
+.message{
+  @include border(1px solid #000);
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 10px;
+}
+
+.error{
+  @extend .message;
+  background: red;
+}
+
+.success{
+  @extend .message;
+  background: blue;
+}
+
+.warning{
+  @extend .message;
+  background: yellow;
 }

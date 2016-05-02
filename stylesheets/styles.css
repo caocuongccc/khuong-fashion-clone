@@ -586,27 +586,27 @@ table {
 
 @font-face {
   font-family: "ModernPictogramsNormal";
-  src: url('/fonts/../fonts/modernpics-webfont.ttf?1346405208') format('truetype'), url('/fonts/../fonts/modernpics-webfont.woff?1346405208') format('woff'), url('/fonts/../fonts/modernpics-webfont.eot?1346405208') format('embedded-opentype'), url('/fonts/../fonts/modernpics-webfont.svg?1346405208') format('svg');
+  src: url('../fonts/modernpics-webfont.ttf') format('truetype'), url('../fonts/modernpics-webfont.woff') format('woff'), url('../fonts/modernpics-webfont.eot') format('embedded-opentype'), url('../fonts/modernpics-webfont.eot') format('embedded-opentype'), url('../fonts/modernpics-webfont.svg') format('svg');
 }
-/* line 19, ../sass/styles.scss */
+/* line 22, ../sass/styles.scss */
 .float-left, .bio img, .bio .detail {
   float: left;
 }
 
-/* line 22, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 .box-sizing, .bio, .bio .detail, .social {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 27, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 html {
   height: 100%;
   background-color: #fff;
 }
 
-/* line 31, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 .vcard {
   width: 500px;
   margin: 50px auto;
@@ -616,66 +616,113 @@ html {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 37, ../sass/styles.scss */
+/* line 40, ../sass/styles.scss */
 .vcard ul {
   padding: 0;
   margin: 0;
 }
-/* line 40, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 .vcard ul li {
   list-style: none;
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 48, ../sass/styles.scss */
 .bio {
   border-bottom: 1px solid #e6e6e6;
   padding: 20px;
 }
-/* line 49, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 .bio img {
   display: block;
   border: 5px solid #ffffff;
 }
-/* line 54, ../sass/styles.scss */
+/* line 57, ../sass/styles.scss */
 .bio .detail {
   color: gray;
   margin-left: 20px;
   margin-bottom: 10px;
   width: 350px;
 }
-/* line 64, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 .bio .detail li:before {
   width: 20px;
   height: 20px;
   margin-right: 20px;
   font-family: "ModernPictogramsNormal";
 }
-/* line 70, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 .bio .detail li.name:before {
   content: "f";
 }
-/* line 73, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 .bio .detail li.email:before {
   content: "m";
 }
-/* line 76, ../sass/styles.scss */
+/* line 79, ../sass/styles.scss */
 .bio .detail li.phone:before {
   content: "N";
 }
 
-/* line 82, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 .social {
   background-color: #e6e6e6;
   width: 100%;
   padding: 20px;
 }
-/* line 87, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
 .social ul {
   text-align: center;
 }
-/* line 89, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 .social ul li {
   display: inline-block;
   width: 32px;
   height: 32px;
+}
+
+/* line 101, ../sass/styles.scss */
+.module-parent h1 {
+  line-height: 1.5em;
+  padding-right: 15px;
+}
+/* line 106, ../sass/styles.scss */
+.module-parent h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+/* line 111, ../sass/styles.scss */
+.module-parent p {
+  color: color-p;
+  font-size: 14px;
+}
+/* line 114, ../sass/styles.scss */
+.module-parent p a {
+  color: red;
+}
+/* line 116, ../sass/styles.scss */
+.module-parent p a:hover {
+  color: #dfdcad;
+}
+
+/* line 128, ../sass/styles.scss */
+.message, .error, .success, .warning {
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 10px;
+}
+
+/* line 135, ../sass/styles.scss */
+.error {
+  background: red;
+}
+
+/* line 140, ../sass/styles.scss */
+.success {
+  background: blue;
+}
+
+/* line 145, ../sass/styles.scss */
+.warning {
+  background: yellow;
 }
