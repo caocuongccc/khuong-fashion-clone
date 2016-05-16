@@ -1,0 +1,282 @@
+body{
+  margin 0 auto;
+  font-size: 14px;
+  font-family: 'Open Sans',sans-serif;
+  color: #000;
+}
+
+.top{
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+@media (max-width: 640px) and (min-width: 320px){
+  .logo {
+      width: 60%;
+  }
+
+  .infor {
+    display: none;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .btn-fb{
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 767px) and (min-width: 240px){
+  .logo {
+      width: 60%;
+  }
+
+  .infor {
+    display: none;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .btn-fb{
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px){
+  .btn-fb{
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 640px) and (min-width: 240px){
+  .logo {
+      width: 60%;
+  }
+
+  .infor {
+    display: none;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .btn-fb{
+    padding-bottom: 10px;
+  }
+}
+
+.logo {
+    transition: width 0.3s ease 0s;
+    padding: 10px;
+    position: relative;
+}
+
+.infor{
+  float: right;
+  top: 40px;
+  right: 20px;
+  position: relative;
+}
+
+.wellcome{
+  padding: 40px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.carousel-title{
+  font-size: 70px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.80);
+}
+
+.carousel-caption{
+  top: 15px !important;
+}
+
+.carousel-des{
+  font-size: 24px;
+  background-color: rgba(0,0,0,0.80);
+  margin-top: 10px;
+}
+
+.image-height img{
+  height: 550px;
+  max-height: 550px;
+  width: 1300px;
+}
+  
+.btn-login-wifi {
+    background-color: #4099FF;
+    width: 100%;
+}
+
+.btn-login-facebook {
+    background-color: #3b5998;
+    width: 100%;
+}
+
+.buttom-group{
+  padding-bottom: 20px;
+}
+
+.icon-vertical-line:before {
+    content: "\e90f";
+}
+
+.contact-infor{
+  background: #33211d;
+  padding: 10px;
+}
+
+.copy-right{
+  background: #da9f5b;
+  padding: 15px;
+}
+
+.wrapper-item{
+  display: block;
+  margin: 0 auto 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+.price{
+  background: #33211d;
+  padding: 5px 10px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+  color: #fff;
+  font-weight: bold;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    -moz-transition: opacity 0.35s, -moz-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+    -moz-transform: scale(1.12);
+}
+
+.center-block:hover {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.image-response {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.item-title{
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.item-des{
+  margin: 0 0 30px 0;
+  line-height: 1.6em;
+  font-size: 14px;
+}
+
+.border-b {
+    background: none repeat scroll 0 0 #e5e5e5;
+    float: left;
+    height: 1px;
+    margin-top: 25px;
+    position: relative;
+    width: 100%;
+}
+
+.border-b span {
+    background: url(../images/border.png) no-repeat 0 0 #fff;
+    position: absolute;
+    width: 110px;
+    height: 27px;
+    left: 50%;
+    top: -12px;
+    margin-left: -50px;
+}
+
+.footers{
+  padding-top: 40px;
+}
+
+.footers p{
+  color: #fff;
+  line-height: 20px;
+}
+
+.text-hours{
+  margin-right: 130px;
+  float: right;
+}
+
+.infor-title{
+  font-size: 18px;
+  font-weight: bold;
+  color: #da9f5b;
+  margin: 25px 0px 25px 0px;
+  clear: both;
+  text-transform: uppercase;
+}
+
+.social-mid{
+  margin-top: 15px;
+}
+
+.social-mid a .fa-facebook {
+    background-color: #2f5a9a;
+}
+
+.social-mid a .fa {
+    color: #fff;
+}
+
+.social-mid a .fa-twitter {
+    background-color: #3abdd1;
+}
+
+.social-mid a .fa-google-plus {
+    background-color: #363636;
+}
+
+.social-mid a .fa-pinterest {
+    background-color: #d13a3a;
+}
+
+.social-mid a .fa-linkedin {
+    background-color: #0072b2;
+}
+
+.social-mid a .fa:hover {
+    color: #fff;
+}
+
+.social-mid a:hover .fa {
+    background: #33211d;
+}
+
+i.fa {
+    border-radius: 50%;
+    transition: background-color 0.5s ease-in-out 0s;
+    height: 37px;
+    padding: 10px;
+    vertical-align: middle;
+    width: 37px;
+}
