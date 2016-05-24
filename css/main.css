@@ -370,18 +370,51 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+.root {
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%; }
+
 /* MODULE - Individual site components */
+.feature .feature-item {
+  position: relative;
+  width: 360px; }
+.feature p {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  text-transform: uppercase;
+  color: #ffffff; }
+
 /* LAYOUT - Page layout */
 .l-footer {
   border-top: solid 1px #ede9dd;
-  background: #ffffff; }
+  background: #3d3c3c;
+  width: 100%; }
 
 .l-header {
   position: fixed;
-  background-color: red;
-  z-index: 1000; }
+  background-color: #ffffff;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%; }
 
 .nav-top {
-  list-style: none; }
+  /* level1 */ }
+  .nav-top a {
+    text-decoration: none;
+    display: block;
+    padding: 0 5px;
+    color: #3d3c3c; }
+  .nav-top ul li ul {
+    display: none; }
+
+.l-flexslide {
+  width: 100%;
+  position: relative; }
 
 /*# sourceMappingURL=main.css.map */

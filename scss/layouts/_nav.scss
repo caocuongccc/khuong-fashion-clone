@@ -1,3 +1,12 @@
 .nav-top{
-  list-style: none;
+  a{
+    text-decoration: none;
+    display: block;
+    padding: 0 5px;
+    color: $color-text-nav-top;
+  }
+  /* level1 */
+  ul li ul{
+    display: none;
+  }
 }
