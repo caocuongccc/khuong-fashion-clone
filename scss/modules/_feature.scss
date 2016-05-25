@@ -1,13 +1,13 @@
-.feature{
-  .feature-item{
+.feature {
+  .feature-item {
   position: relative;
   width: 360px;
   }
-  p{
+  p {
     position: absolute;
     top: 100px;
     left: 100px;
     text-transform: uppercase;
-    color: $color-background-top;
+    color: $color-background-white;
   }
 }

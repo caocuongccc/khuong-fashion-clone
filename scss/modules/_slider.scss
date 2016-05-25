@@ -1,0 +1,36 @@
+.slider {
+  position: relative;
+  .slide-caption-title {
+    text-transform: uppercase;
+    position: absolute;
+    top: 20%;
+    left:50%;
+    @include margin-left(252px);
+    font-size: 45px;
+    font-weight: bold;
+    color: $color-background-white;
+  }
+
+  .slide-caption-content {
+    text-transform: uppercase;
+    position: absolute;
+    top: 30%;
+    @include margin-left(225px);
+    font-size: 16px;
+    color: $color-background-white;
+  }
+
+  .arrow-left {
+    position: absolute;
+    top: 30%;
+    padding-left: 10px;
+  }
+
+  .arrow-right {
+    position: absolute;
+    top: 30%;
+    right: 24px;
+
+  }
+
+}

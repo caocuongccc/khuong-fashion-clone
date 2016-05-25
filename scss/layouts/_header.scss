@@ -1,8 +1,13 @@
-.l-header{
+.l-header {
   position: fixed;
-  background-color: $color-background-top;
+  background-color: $color-background-white;
   z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;
+  padding: 20px;
+  opacity: 0.4;
+  .scroll {
+    opacity: 1.0;
+  }
 }
