@@ -5,6 +5,22 @@
 */
 /* BASE - Base style, variable, mixins, etc */
 /* MODULE - Individual site components */
+.video {
+  padding: 30px 5px 40px 5px; }
+
+.news a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000; }
+.news .news-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #660303; }
+.news .news-date {
+  color: #9da6ae; }
+.news .news-thumbnail {
+  width: 100%; }
+
 .slider {
   position: relative; }
   .slider .slide-caption-title {
@@ -25,18 +41,28 @@
     left: 50%;
     font-size: 16px;
     color: #ffffff; }
-  .slider .arrow {
-    background: red;
-    width: 62px;
-    height: 62px; }
   .slider .arrow-left {
     position: absolute;
     top: 30%;
     padding-left: 30px; }
+    .slider .arrow-left i {
+      width: 60px;
+      height: 60px;
+      background: #14262A;
+      padding-left: 19px; }
+      .slider .arrow-left i:hover {
+        background: #1A2E35; }
   .slider .arrow-right {
     position: absolute;
     top: 30%;
     right: 30px; }
+    .slider .arrow-right i {
+      width: 60px;
+      height: 60px;
+      background: #14262A;
+      padding-right: 14px; }
+      .slider .arrow-right i:hover {
+        background: #1A2E35; }
   .slider .indicator-group {
     position: absolute;
     bottom: 20px;
@@ -75,13 +101,17 @@
       .slider .order a:hover {
         text-decoration: none; }
     .slider .order:hover {
-      background-color: #ffffff; }
+      background-color: rgba(255, 255, 255, 0.2) !important;
+      border-color: #fff; }
 
-.feature .feature-item {
+.feature-in .feature-item {
   position: relative;
   width: 100%;
   height: auto; }
-.feature p {
+.feature-in img {
+  width: 100%;
+  padding: 30px 5px; }
+.feature-in p {
   position: absolute;
   top: 100px;
   left: 100px;
@@ -91,8 +121,8 @@
 /* LAYOUT - Page layout */
 .l-footer {
   border-top: solid 1px #ede9dd;
-  background: #3d3c3c;
-  width: 100%; }
+  width: 100%;
+  margin-top: 2.5em; }
 
 .l-header {
   position: fixed;

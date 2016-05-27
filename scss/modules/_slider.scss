@@ -19,22 +19,37 @@
     font-size: 16px;
     color: $color-background-white;
   }
-  .arrow {
-    background: red;
-    width: 62px;
-    height: 62px;
-  }
+
   .arrow-left {
     position: absolute;
     top: 30%;
     padding-left: 30px;
+    i {
+      width: 60px;
+      height: 60px;
+      background: $color-bg-previous-slide;
+      padding-left: 19px;
+
+      &:hover {
+        background: $color-bg-previous-slide-hover;
+      }
+    }
   }
 
   .arrow-right {
     position: absolute;
     top: 30%;
     right: 30px;
+    i {
+      width: 60px;
+      height: 60px;
+      background: $color-bg-previous-slide;
+      padding-right: 14px;
 
+      &:hover {
+        background: $color-bg-previous-slide-hover;
+      }
+    }
   }
 
   .indicator-group {
@@ -80,7 +95,8 @@
         }
     }
     &:hover {
-      background-color: $color-background-white;
+      background-color: rgba(255,255,255,.2) !important;
+      border-color: #fff;
     }
   }
 

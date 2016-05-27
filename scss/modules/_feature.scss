@@ -1,8 +1,12 @@
-.feature {
+.feature-in {
   .feature-item {
   position: relative;
   width: 100%;
   height: auto;
+  }
+  img {
+    width: 100%;
+    padding: 30px 5px;
   }
   p {
     position: absolute;
