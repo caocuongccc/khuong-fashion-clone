@@ -124,6 +124,9 @@
   width: 100%;
   margin-top: 2.5em; }
 
+.l-main {
+  margin-top: 110px; }
+
 .l-header {
   position: fixed;
   background-color: #ffffff;
@@ -132,9 +135,8 @@
   left: 0;
   width: 100%;
   padding: 20px;
-  opacity: 0.4; }
-  .l-header .scroll {
-    opacity: 1.0; }
+  opacity: 0.4;
+  border-bottom: 1px solid #ffffff; }
 
 .nav-top {
   /* level1 */ }
