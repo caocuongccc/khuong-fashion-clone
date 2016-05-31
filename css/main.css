@@ -4,6 +4,10 @@
   Version: 0.0.1
 */
 /* BASE - Base style, variable, mixins, etc */
+.row-no-padding [class*="col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
 /* MODULE - Individual site components */
 .video {
   padding: 30px 5px 40px 5px; }
@@ -126,6 +130,24 @@
 
 .l-main {
   margin-top: 110px; }
+  .l-main .new-title {
+    color: #000000;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 15px; }
+    .l-main .new-title:hover {
+      color: #660303; }
+  .l-main .divider {
+    border-left: solid 1px #ded6c7;
+    padding-bottom: 5px; }
+  .l-main .news-date {
+    padding: 15px 0px;
+    color: #000000;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: solid 1px #ded6c7; }
 
 .l-header {
   position: fixed;

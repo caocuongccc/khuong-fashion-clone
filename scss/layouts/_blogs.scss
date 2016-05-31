@@ -1,3 +1,27 @@
 .l-main {
   margin-top: 110px;
+  .new-title {
+    color: #000000;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    &:hover {
+      color: #660303;
+    }
+  }
+
+  .divider {
+    border-left: solid 1px #ded6c7;
+    padding-bottom: 5px;
+  }
+
+  .news-date {
+    padding: 15px 0px;
+    color: #000000;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: solid 1px #ded6c7;
+  }
 }
