@@ -18,10 +18,26 @@
   }
 
   .news-date {
-    padding: 15px 0px;
+    padding: 28px 0px;
     color: #000000;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     border-bottom: solid 1px #ded6c7;
+  }
+
+  .blog-thumbnail {
+    width: 100%;
+  }
+
+  .blog-header {
+    a {
+      color: #660303;
+      &:hover {
+        text-decoration: none;
+        color: #000000;
+      }
+    }
+
+    text-transform: uppercase;
   }
 }
