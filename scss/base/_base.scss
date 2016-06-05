@@ -1,17 +1,15 @@
-.row-no-padding {
-  [class*="col-"] {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+ul {
+  li {
+    list-style: none;
+  }
+  li a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
-ul {
 
-}
-
-ul li {
-  list-style: none;
-}
-
-ul li a {
-  text-decoration: none;
+img {
+  width: 100%;
 }

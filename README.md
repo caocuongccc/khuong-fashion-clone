@@ -1,6 +1,8 @@
 # Bootstrap and Sass Project
 This project use Bootstrap 3, Sass, Smacss for build. It has responsive for mobile device.
 
+Link of web on internet is [Jmandsons](http://jmandsons.com/)
+
 ## How to checkout
 1. Checkout from [git@github.com:caocuongccc/khuong-fashion-clone.git](https://github.com/caocuongccc/khuong-fashion-clone/)
 

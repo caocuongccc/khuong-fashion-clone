@@ -1,0 +1,42 @@
+.item-shop {
+  position: relative;
+
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &:hover .detail-shop {
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    background: #888;
+    padding: 10px 0;
+    width: 93%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+    &:hover{
+      background-color: #570303;
+    }
+  }
+  .detail-shop {
+    display: none;
+  }
+
+  &:hover .title-shop {
+    color: #660303;
+  }
+
+  .title-shop {
+    padding-top: 10px;
+    color: #000000;
+  }
+
+  .break-line {
+    font-weight: bold;
+    color: #000000;
+  }
+
+}

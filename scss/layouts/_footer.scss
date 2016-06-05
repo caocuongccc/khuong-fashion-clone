@@ -2,4 +2,29 @@
   border-top: solid 1px #ede9dd;
   width: 100%;
   padding-top: 30px;
+
+  .btn-sign {
+    margin-top: 10px;
+    width: 100%;
+  }
+  ul {
+    li {
+      a {
+        color: #404040;
+
+        &:hover {
+          color: #660303;
+        }
+      }
+
+    }
+  }
+
+  .fa-twitter, .fa-facebook, .fa-camera, .fa-envelope {
+    color: #404040;
+    &:hover {
+      color: #660303;
+    }
+  }
+
 }
