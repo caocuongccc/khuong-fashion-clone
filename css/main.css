@@ -117,16 +117,20 @@ img {
 .feature-in .feature-item {
   position: relative;
   width: 100%;
-  height: auto; }
-.feature-in img {
+  height: auto;
   width: 100%;
   padding: 30px 5px; }
-.feature-in p {
+.feature-in .feature-text, .feature-in .feature-text-3 {
+  padding: 5px 0;
   position: absolute;
-  top: 100px;
+  top: 120px;
   left: 100px;
   text-transform: uppercase;
-  color: #ffffff; }
+  color: #ffffff;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red; }
+.feature-in .feature-text-3 {
+  left: 150px; }
 
 .item-shop {
   position: relative; }
@@ -222,8 +226,16 @@ img {
   .nav-top a {
     text-decoration: none;
     display: block;
-    padding: 0 5px;
+    padding: 10px 3px;
+    color: #3d3c3c;
+    text-transform: uppercase; }
+  .nav-top .menubar li {
     color: #3d3c3c; }
+    .nav-top .menubar li a:hover {
+      color: #8f0303 !important; }
+    .nav-top .menubar li a:hover .nav-top-sub {
+      display: block;
+      position: absolute; }
   .nav-top ul li ul {
     display: none; }
 

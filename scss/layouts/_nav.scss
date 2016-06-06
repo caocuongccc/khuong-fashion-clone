@@ -2,11 +2,26 @@
   a {
     text-decoration: none;
     display: block;
-    padding: 0 5px;
-    color: $color-text-nav-top;
+    padding: 10px 3px;
+    color: #3d3c3c;
+    text-transform: uppercase;
   }
   /* level1 */
+  .menubar li {
+    color: #3d3c3c;
+
+    a:hover {
+      color: #8f0303 !important;
+    }
+
+    a:hover .nav-top-sub {
+      display: block;
+      position: absolute;
+    }
+
+  }
   ul li ul {
     display: none;
   }
+
 }
