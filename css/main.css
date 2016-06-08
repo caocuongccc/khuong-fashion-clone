@@ -169,9 +169,9 @@ img {
     margin-top: 10px;
     width: 100%; }
   .l-footer ul li a {
-    color: #404040; }
+    color: #8f0303; }
     .l-footer ul li a:hover {
-      color: #660303; }
+      color: #380404; }
   .l-footer .fa-twitter, .l-footer .fa-facebook, .l-footer .fa-camera, .l-footer .fa-envelope {
     color: #404040; }
     .l-footer .fa-twitter:hover, .l-footer .fa-facebook:hover, .l-footer .fa-camera:hover, .l-footer .fa-envelope:hover {
@@ -218,26 +218,53 @@ img {
   left: 0;
   width: 100%;
   padding: 20px;
-  opacity: 0.4;
-  border-bottom: 1px solid #ffffff; }
+  opacity: 0.95;
+  border-bottom: solid 1px #ded6c7; }
 
-.nav-top {
-  /* level1 */ }
-  .nav-top a {
-    text-decoration: none;
-    display: block;
-    padding: 10px 3px;
-    color: #3d3c3c;
-    text-transform: uppercase; }
-  .nav-top .menubar li {
-    color: #3d3c3c; }
-    .nav-top .menubar li a:hover {
-      color: #8f0303 !important; }
-    .nav-top .menubar li a:hover .nav-top-sub {
+nav ul {
+  margin: 0;
+  list-style: none; }
+  nav ul li {
+    position: relative;
+    /******************
+    SUBNAV
+    ******************/ }
+    nav ul li a {
       display: block;
-      position: absolute; }
-  .nav-top ul li ul {
-    display: none; }
+      padding: 5px 5px;
+      text-align: center;
+      color: #3d3c3c;
+      text-decoration: none; }
+    nav ul li:hover ul {
+      opacity: 1;
+      max-height: 1000px; }
+    nav ul li ul {
+      background: white;
+      list-style: none;
+      padding: 0;
+      position: absolute;
+      width: 200px;
+      max-height: 0;
+      z-index: 0;
+      opacity: 0;
+      overflow: hidden;
+      font-size: .9em; }
+      nav ul li ul li {
+        float: none;
+        margin: 0; }
+        nav ul li ul li a {
+          display: block;
+          text-align: left;
+          padding: 5px 5px;
+          margin: 0;
+          border-right: none;
+          border-top: 1px solid #e0e0e0;
+          box-shadow: inset 0px 1px 3px rgba(255, 255, 255, 0.03);
+          text-transform: none;
+          text-shadow: none; }
+          nav ul li ul li a:hover {
+            color: #8f0303;
+            background: white; }
 
 .l-flexslide {
   width: 100%; }

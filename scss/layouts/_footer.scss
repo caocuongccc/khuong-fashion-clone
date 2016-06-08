@@ -10,10 +10,10 @@
   ul {
     li {
       a {
-        color: #404040;
+        color: $button-sign-color;
 
         &:hover {
-          color: #660303;
+          color: $button-sign-hover;
         }
       }
 
